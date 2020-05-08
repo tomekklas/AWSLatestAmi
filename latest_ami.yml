@@ -121,5 +121,5 @@ Resources:
 Outputs:
   
   GetLatestAMIArn:
-    Description: This value will be keep up top date in Secret Manager
+    Description: This value will be keep up top date in Secret Manager.
     Value: !GetAtt GetLatestAMI.Arn
